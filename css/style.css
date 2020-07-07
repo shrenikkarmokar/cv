@@ -1,0 +1,47 @@
+body {
+  background-color: #dddddd;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.navbar ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 35px;
+}
+
+.navbar a:hover {
+  transition: 1s;
+  color: red;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.navbar a:visited {
+  color: green;
+}
+
+@media only screen and (max-width:768px) {
+  .navbar li {
+    display: block;
+  }
+}

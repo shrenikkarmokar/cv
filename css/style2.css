@@ -1,0 +1,57 @@
+body{
+  margin: 30px;
+  font-family: Arial;
+  font-weight: bold;
+  background-color: #E4F9F5;
+}
+
+.right{
+  position: absolute;
+  right:10px
+
+}
+
+.image {
+  position: absolute;
+  right:20px;
+  top:20px;
+}
+
+.image img {
+  border-radius: 50%;
+  width: 120px;
+}
+.text{
+  padding-left: 20px;
+}
+.line{
+  padding-left: 30px;
+  font-size: 20px;
+}
+.line_1{
+  padding-left: 20px;
+  font-size: 20px;
+
+}
+@media only screen and (max-width:768px) {
+  .image {
+    position: absolute;
+    right:20px;
+    top:5px;
+  }
+  .image img {
+    border-radius: 50%;
+    width: 90px;
+  }
+  .right{
+    position: relative;
+    margin-top: 730px;
+  }
+
+.left{
+  position: absolute;
+  top: 80px;
+  left:35px;
+
+}
+}

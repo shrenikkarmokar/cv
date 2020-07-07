@@ -1,0 +1,56 @@
+body {
+  background-color: #c70039;
+}
+
+.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 3px solid black;
+  opacity: 0.6;
+}
+
+.transbox h1 {
+  margin: 3%;
+  font-weight: bold;
+  color: #000000;
+}
+
+.transbox2 {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 3px solid black;
+  opacity: 0.6;
+}
+
+.navbar ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 35px;
+}
+
+.navbar :hover {
+  transition: 1s;
+  color: red;
+  font-size: 30px;
+  text-decoration: underline;
+  background-color: white;
+}
+
+@media only screen and (max-width:768px) {
+
+  .navbar li {
+    display: block;
+  }
+}
