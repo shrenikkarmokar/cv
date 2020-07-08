@@ -50,6 +50,7 @@ body{
   .right{
     position: relative;
     margin-top: 730px;
+    right:10px;
   }
 
 .left{
